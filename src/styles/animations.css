@@ -2,11 +2,11 @@ svg {
     display: block;
 }
 
-.smile {
+.pc-anim .smile {
   animation: sad-face 7s linear infinite;
 }
 
-.eye {
+.pc-anim .eye {
   animation: blink 4s linear infinite;
   
 }
