@@ -56,6 +56,42 @@ body {
     color: var(--primary-color);
 }
 
+.highlight {
+    background-image: linear-gradient(
+        90deg, 
+        var(--primary-on-hover), 
+        var(--primary-on-hover)
+        );
+        background-repeat: no-repeat;
+        background-size: 98% 55%;
+        background-position: bottom left;
+}
+
+
+
+/* layout */
+
+
+.content-wrapper {
+    padding: 0 2rem;
+    max-width: 1440px;
+    overflow-x: hidden;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
 
 /* navbar */
 
@@ -63,7 +99,6 @@ body {
 .navbar {
     position: fixed;
     top: 0;
-    left: 0;
     z-index: 1;
 
     display: flex;
@@ -71,7 +106,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 1.5rem;
-    min-width: 100%;
+    width: 100%;
 
     background-color: var(--primary-background-dark);
 }
@@ -141,9 +176,9 @@ body {
 
     font-size: 5rem;
     font-weight: 800;
-    text-align: right;
 }
 
 .super-hero-sub-heading {
     text-align: right;
 }
+
