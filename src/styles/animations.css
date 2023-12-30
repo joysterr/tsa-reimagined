@@ -1,0 +1,33 @@
+svg {
+    display: block;
+}
+
+.smile {
+  animation: sad-face 7s linear infinite;
+}
+
+.eye {
+  animation: blink 4s linear infinite;
+  
+}
+
+@keyframes sad-face {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  15%, 50% {
+    transform: translate(0, 20px);
+  }
+  75% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes blink {
+    0%, 100% {
+        transform: matrix(1,0,0,0.2,20,20);
+    }
+    1%, 99% {
+      transform: matrix(1,0,0,1,0,0);
+    }
+  }

@@ -30,10 +30,6 @@ body {
     color: var(--light-on-primary);
 }
 
-main {
-    margin-top: 4rem;
-}
-
 
 /* util */
 
@@ -124,4 +120,30 @@ main {
 
 .nav-link a:hover {
     background-size: 100% 1px;
+}
+
+
+/* sections */
+
+/* hero section */
+
+.section-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 100dvh;
+}
+
+.super-hero-heading {
+    margin-bottom: 20px;
+
+    font-size: 5rem;
+    font-weight: 800;
+    text-align: right;
+}
+
+.super-hero-sub-heading {
+    text-align: right;
 }
