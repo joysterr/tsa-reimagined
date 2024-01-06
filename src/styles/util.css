@@ -1,5 +1,10 @@
 /* mobile s */
 @media (min-width: 375px) {
+    html,
+    body {
+        height: 100dvh;
+    }
+
     .content-wrapper {
         max-width: 375px;
     }
@@ -39,6 +44,10 @@
 
 /* tablet s */
 @media (min-width: 600px) {
+    html,
+    body {
+        height: auto;
+    }
     .content-wrapper {
         max-width: 600px;
     }
