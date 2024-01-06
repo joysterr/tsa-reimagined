@@ -301,3 +301,13 @@ body {
 .search-screen {
     gap: 5rem;
 }
+
+
+/* footer */
+
+.footer {
+    padding: 2rem;
+
+    text-align: center;
+    font-size: 0.9rem;
+}
