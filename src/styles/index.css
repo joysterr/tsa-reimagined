@@ -24,7 +24,6 @@ body {
     text-align: center;
 
     font-family: 'Inter', sans-serif;
-    min-height: 100dvh;
 
     background-color: var(--primary-background-dark);
     color: var(--light-on-primary);
@@ -74,7 +73,7 @@ body {
 
 .content-wrapper {
     padding: 0 2rem;
-    max-width: 1440px;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -92,6 +91,7 @@ body {
 .text-right {
     text-align: right;
 }
+
 
 /* navbar */
 
@@ -181,4 +181,3 @@ body {
 .super-hero-sub-heading {
     text-align: right;
 }
-
