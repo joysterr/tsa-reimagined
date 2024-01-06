@@ -181,3 +181,31 @@ body {
 .super-hero-sub-heading {
     text-align: right;
 }
+
+/* about section  */
+.section-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100dvh;
+}
+
+
+.screen-bg {
+    padding: 1rem;
+    width: 90%;
+    height: 70%;
+
+    border: 2px solid var(--primary-container);
+    border-radius: 30px;
+}
+
+.screen-bottom-bar {
+    width: 8rem;
+    height: 1rem;
+
+    border-radius: 30px;
+    background-color: var(--primary-container);
+}
