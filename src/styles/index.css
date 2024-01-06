@@ -302,6 +302,18 @@ body {
     gap: 5rem;
 }
 
+/* signup section */
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 5rem;
+
+    border: 2px solid var(--primary-container);
+    border-radius: 15px;
+}
+
+
 
 /* footer */
 
